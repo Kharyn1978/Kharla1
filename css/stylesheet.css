@@ -10,19 +10,27 @@ body{
   
   header {
     text-align: center;
-    
+    background-image: url("/Images/Kharla.jpg");
     color: rgb(226, 235, 235);
   }
+  #backgroundPicture{
+    display: block;
+    height: 80%;
+    width: 100%;
+    background-image:url("/Images/kharla.jpg");
+    background-color: aquamarine;
+    background-size:100%;
+
+  }
+
   #heading {
     font-family: sans-serif;
-    background-color:#343330;
-    color: rgb(226, 235, 235);
-  
   }
   #headshot{
     border: 10px solid rgb(202, 104, 38);
     border-radius: 50%;
     position: relative;
+   
   }
   
   footer {
