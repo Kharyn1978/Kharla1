@@ -11,14 +11,14 @@ body{
   header {
     text-align: center;
     background-image: url("/Images/Kharla.jpg");
-    
+    background-color: rgb(226, 161, 218);
   }
   #backgroundPicture{
     display: block;
     height: 80%;
     width: 100%;
     background-image:url("/Images/kharla.jpg");
-    background-color: rgb(53, 45, 10);
+    
     background-size:100%;
 
   }
