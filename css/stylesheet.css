@@ -11,14 +11,14 @@ body{
   header {
     text-align: center;
     background-image: url("/Images/Kharla.jpg");
-    background-color: rgb(226, 161, 218);
+    color: rgb(226, 235, 235);
   }
   #backgroundPicture{
     display: block;
     height: 80%;
     width: 100%;
     background-image:url("/Images/kharla.jpg");
-    
+    background-color: aquamarine;
     background-size:100%;
 
   }
@@ -26,6 +26,7 @@ body{
   #heading {
     font-family: sans-serif;
   }
+
   #headshot{
     border: 10px solid rgb(202, 104, 38);
     border-radius: 50%;
@@ -53,7 +54,6 @@ body{
     color: rgb(229, 238, 238);
     padding: 1rem;
   
-    flex: 8;
   }
   
   #content{
@@ -74,15 +74,39 @@ body{
     
   /* ID SECTION */
   .icons{
-    width: 40px ;
+    width: 100% ;
     height: 50px ;
   
   }
 
-  
+  @media only screen and (max-width:768px) {
+    #headshot{
+      
+      display: block;
+     
+    }
+    
+    .main{
+      display: block; 
+      flex-direction: row;
+      justify-content: space-between;
+      
+    }
 
+    #sidebar {
+      
+      width: 100%;
+      text-align: center;
+      color: rgb(229, 238, 238);
+      padding: 1rem;
+      display: block; 
+    }
 
- 
+    #content{
+    
+      width:100%;
+      display: block;
+    }
 
    
-
+  }
